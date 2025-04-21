@@ -5,6 +5,7 @@ r = 4 #Growth rate
 iterations = 50
 pop1 = 0.59
 pop2 = 0.6
+#Small difference in initial conditions
 
 def logistic_map(r, x):
     return r * x * (1 - x)
